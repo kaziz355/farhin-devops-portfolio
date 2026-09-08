@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Farhin Khan | Senior DevOps Technical Lead</title>
+
+  <meta name="description"
+        content="Professional portfolio of Farhin Khan - Senior DevOps Technical Lead, DevOps Engineer, SRE and Platform Engineering professional.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fb;
+      color: #172033;
+      line-height: 1.6;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: #101827;
+      padding: 15px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #4da3ff;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #101827, #183b63);
+      color: white;
+      padding: 90px 7%;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero h2 {
+      font-size: 25px;
+      font-weight: normal;
+      color: #8ec5ff;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 850px;
+      font-size: 18px;
+      color: #e1e8f2;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      background: #2188ff;
+      color: white;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      border: 1px solid #8ec5ff;
+    }
+
+    section {
+      padding: 65px 7%;
+    }
+
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: #12233d;
+    }
+
+    .about {
+      background: white;
+    }
+
+    .about p {
+      max-width: 950px;
+      font-size: 17px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-top: 35px;
+    }
+
+    .stat {
+      background: #f5f7fb;
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 30px;
+      color: #1769aa;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+
+    .skill {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      border-left: 4px solid #2188ff;
+      font-weight: bold;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    }
+
+    .projects {
+      background: #eef3f9;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .project {
+      background: white;
+      padding: 28px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    }
+
+    .project h3 {
+      color: #1769aa;
+      margin-bottom: 12px;
+    }
+
+    .project ul {
+      padding-left: 20px;
+    }
+
+    .experience-item {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-left: 5px solid #2188ff;
+      border-radius: 8px;
+    }
+
+    .experience-item h3 {
+      color: #1769aa;
+    }
+
+    .experience-item .company {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: #101827;
+      color: white;
+      text-align: center;
+    }
+
+    .contact h2 {
+      color: white;
+    }
+
+    .contact p {
+      margin: 10px 0;
+    }
+
+    .contact a {
+      color: #8ec5ff;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #080d16;
+      color: #aeb8c6;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero h2 {
+        font-size: 20px;
+      }
+
+      .stats {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">Farhin Khan</div>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+
+    <h1>Farhin Khan</h1>
+
+    <h2>
+      Senior DevOps Technical Lead | DevOps & SRE Engineer
+    </h2>
+
+    <p>
+      Senior DevOps professional with 8+ years of experience in
+      DevOps, CI/CD, cloud infrastructure, automation, platform
+      engineering and deployment technologies.
+    </p>
+
+    <div class="buttons">
+
+      <a class="btn"
+         href="https://www.linkedin.com/in/farhikha"
+         target="_blank">
+        LinkedIn Profile
+      </a>
+
+      <a class="btn secondary"
+         href="https://github.com/kaziz355"
+         target="_blank">
+        GitHub Profile
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <section id="about" class="about">
+
+    <h2>About Me</h2>
+
+    <p>
+      I am a Senior DevOps Technical Lead / Senior DevOps Engineer
+      specializing in CI/CD automation, cloud platforms,
+      Kubernetes, infrastructure as code, DevSecOps and
+      platform engineering.
+    </p>
+
+    <br>
+
+    <p>
+      My experience includes designing and supporting enterprise
+      deployment pipelines, automating infrastructure and
+      application delivery, improving software delivery processes,
+      and working with development and engineering teams to build
+      reliable and scalable platforms.
+    </p>
+
+    <div class="stats">
+
+      <div class="stat">
+        <strong>8+</strong>
+        Years Experience
+      </div>
+
+      <div class="stat">
+        <strong>CI/CD</strong>
+        Automation
+      </div>
+
+      <div class="stat">
+        <strong>Cloud</strong>
+        AWS / Azure / GCP
+      </div>
+
+      <div class="stat">
+        <strong>SRE</strong>
+        Platform Engineering
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="skills">
+
+    <h2>Technical Skills</h2>
+
+    <div class="skills">
+
+      <div class="skill">GitLab CI/CD</div>
+      <div class="skill">Jenkins</div>
+      <div class="skill">Kubernetes</div>
+      <div class="skill">Docker</div>
+      <div class="skill">Terraform</div>
+      <div class="skill">AWS</div>
+      <div class="skill">Microsoft Azure</div>
+      <div class="skill">Google Cloud</div>
+      <div class="skill">Helm</div>
+      <div class="skill">Ansible</div>
+      <div class="skill">SonarQube</div>
+      <div class="skill">Nexus Artifactory</div>
+      <div class="skill">Python</div>
+      <div class="skill">Git</div>
+      <div class="skill">DevSecOps</div>
+      <div class="skill">SRE</div>
+      <div class="skill">Platform Engineering</div>
+      <div class="skill">CI/CD Automation</div>
+
+    </div>
+
+  </section>
+
+
+  <section id="experience" class="about">
+
+    <h2>Professional Experience</h2>
+
+    <div class="experience-item">
+
+      <h3>Senior DevOps Technical Lead</h3>
+
+      <div class="company">
+        Enterprise Financial Services Environment
+      </div>
+
+      <p>
+        Working on enterprise DevOps and CI/CD transformation,
+        supporting application delivery and deployment automation.
+      </p>
+
+      <ul>
+        <li>Design and maintain GitLab CI/CD pipelines.</li>
+        <li>Work with Jenkins and existing enterprise deployment processes.</li>
+        <li>Support Nolio to GitLab deployment migration.</li>
+        <li>Automate build and deployment workflows.</li>
+        <li>Integrate SonarQube for code quality analysis.</li>
+        <li>Work with Nexus Artifactory for artifact management.</li>
+        <li>Use Python for CI/CD automation and tooling.</li>
+        <li>Support secure credential and secret management.</li>
+        <li>Work with Windows-based application deployment automation.</li>
+      </ul>
+
+    </div>
+
+  </section>
+
+
+  <section id="projects" class="projects">
+
+    <h2>Featured Projects</h2>
+
+    <div class="project-grid">
+
+      <div class="project">
+
+        <h3>Nolio to GitLab CI/CD Migration</h3>
+
+        <p>
+          Enterprise deployment modernization project focused
+          on migrating legacy Nolio deployment workflows to
+          GitLab CI/CD.
+        </p>
+
+        <br>
+
+        <ul>
+          <li>GitLab CI/CD YAML</li>
+          <li>Python automation</li>
+          <li>Windows deployment</li>
+          <li>Batch scripts</li>
+          <li>Nexus integration</li>
+          <li>SonarQube integration</li>
+          <li>CSM/secret integration</li>
+        </ul>
+
+      </div>
+
+
+      <div class="project">
+
+        <h3>CI/CD Pipeline Automation</h3>
+
+        <p>
+          Automated application build, quality validation,
+          artifact management and deployment workflows using
+          enterprise DevOps tooling.
+        </p>
+
+        <br>
+
+        <ul>
+          <li>GitLab</li>
+          <li>Jenkins</li>
+          <li>SonarQube</li>
+          <li>Nexus</li>
+          <li>Python</li>
+          <li>YAML automation</li>
+        </ul>
+
+      </div>
+
+
+      <div class="project">
+
+        <h3>Cloud & Platform Engineering</h3>
+
+        <p>
+          Experience supporting cloud-native infrastructure,
+          container platforms and infrastructure automation.
+        </p>
+
+        <br>
+
+        <ul>
+          <li>Kubernetes</li>
+          <li>Docker</li>
+          <li>Terraform</li>
+          <li>AWS</li>
+          <li>Azure</li>
+          <li>GCP</li>
+          <li>Helm</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section>
+
+    <h2>DevOps Focus Areas</h2>
+
+    <div class="skills">
+
+      <div class="skill">CI/CD Engineering</div>
+      <div class="skill">Cloud Infrastructure</div>
+      <div class="skill">Infrastructure as Code</div>
+      <div class="skill">Containerisation</div>
+      <div class="skill">Kubernetes Platforms</div>
+      <div class="skill">DevSecOps</div>
+      <div class="skill">Release Automation</div>
+      <div class="skill">Platform Engineering</div>
+      <div class="skill">Site Reliability Engineering</div>
+      <div class="skill">Deployment Automation</div>
+
+    </div>
+
+  </section>
+
+
+  <section id="contact" class="contact">
+
+    <h2>Let's Connect</h2>
+
+    <p>
+      I am open to opportunities in DevOps, SRE,
+      Platform Engineering and Cloud Engineering.
+    </p>
+
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/farhikha"
+         target="_blank">
+        linkedin.com/in/farhikha
+      </a>
+    </p>
+
+    <p>
+      GitHub:
+      <a href="https://github.com/kaziz355"
+         target="_blank">
+        github.com/kaziz355
+      </a>
+    </p>
+
+  </section>
+
+
+  <footer>
+
+    © 2026 Farhin Khan | Senior DevOps Technical Lead
+
+  </footer>
+
+</body>
+</html>
